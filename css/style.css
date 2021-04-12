@@ -1,0 +1,149 @@
+/* css reset */
+
+*{
+  margin : 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: purple;
+  color: white;
+}
+
+.container{
+  width : 90%;
+  margin: 50px auto;
+}
+.logo{
+  width: 100px;
+  border-radius: 20px;
+}
+.navBtn{
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  background: lightyellow;
+  color: purple;
+  text-align : center;
+  margin: 0 30px;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.row{
+  width: 99%;
+  /* border : 1px solid white; */
+  margin-bottom: 20px;
+}
+.col1 {
+  width : 30%;
+  float:left;
+  /* border : 1px solid yellow; */
+}
+.col2{
+  width : 68%;
+  float:right;
+  /* border : 1px solid yellow; */
+  margin-top: 23px;
+}
+.clear{
+  clear: both;
+  display: table;
+  content:"";
+}
+.section{
+  /* height: 400px; */
+}
+.categories {
+  width: 60%;
+  padding: 20px;
+  margin: 20px auto;
+  /* border: 1px solid yellow; */
+}
+.menuCategory {
+  display : inline;
+  width: 200px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid white;
+  padding: 20px;
+}
+
+.menuRow {
+  width: 100%;
+
+}
+.col{
+  width: 49.5%;
+  float: left;
+  /* border : 1px solid red; */
+  padding: 20px 0;
+}
+.item {
+  height : 350px;
+  margin: auto;
+  display: block;
+}
+.description {
+  width: 70%;
+  margin : 70px auto;
+  line-height: 25px;
+  font-size: 1.5rem;
+}
+.menuRow {
+  margin: 35px 0;
+  padding: 20px;
+}
+.itemHeading{
+  font-size: 2rem;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.add, #calculate {
+  width : 70%;
+  margin : 10px auto;
+  display : block;
+  margin-top : 100px;
+  height: 50px;
+  font-size: 2rem;
+  padding: 7px;
+  color : purple;
+  border-radius: 20px;
+}
+#calculate {
+  width : 30%;
+  margin : 10px 0;
+  display : block;
+  margin-top : 100px;
+  height: 50px;
+  font-size: 2rem;
+  padding: 7px;
+  color : purple;
+  border-radius: 20px;
+}
+.cartRow {
+  width: 80%;
+  font-size: 1.7rem;
+  padding: 20px
+}
+.cartCol1 {
+  width: 70%;
+  float: left;
+}
+.cartCol1 {
+  width: 30%;
+  float: left;
+}
+.displayOrder {
+  margin : 20px 0;
+}
+.total {
+  display: inline;
+  margin : 20px 0;
+}
+.menuHeading{
+  font-size: 1.7rem;
+  padding: 20px
+}

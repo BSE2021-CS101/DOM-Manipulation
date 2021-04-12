@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link -->
+
+    <!-- my own stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>DOM Manipulation</title>
+  </head>
+  <body>
+    <div class="container">
+
+
+      <!-- <h1>DOM Manipulation</h1> -->
+
+      <header class="row clear">
+        <div class="col1">
+          <img class="logo" src="images/logo.jpg" alt="Logo">
+        </div>
+        <div class="col2">
+          <button id="homeNav" class="navBtn" type="button" name="button">Home</button>
+          <button id="menuNav" class="navBtn" type="button" name="button">Menu</button>
+          <button id="cartNav" class="navBtn" type="button" name="button">View order</button>
+          <button id="payNav" class="navBtn" type="button" name="button">Pay</button>
+        </div>
+
+      </header>
+      <main>
+        <section id="home" class="section">
+          <h1>Home Page</h1>
+        </section>
+
+        <section id="menu" class="section">
+          <h1 class="menuHeading">Menu Page</h1>
+          <div class="categories">
+            <h2 id="starters" class="menuCategory">Starters</h2>
+            <h2 id="main" class="menuCategory">Main</h2>
+            <h2 id="dessert" class="menuCategory">Dessert</h2>
+            <h2 id="drinks" class="menuCategory">Drinks</h2>
+          </div>
+
+
+            <div id="mainMenu" class="">
+
+
+              <article class="menuRow clear">
+                <div class="col">
+                  <h3 class="itemHeading">Cheese Burger</h3>
+                  <img  id="itemImg" class="item" src="images/item1.jpeg" alt="Menu item">
+                </div>
+                <div class="col">
+                  <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <button id="cheeseBurger" class="add" type="button" name="button">Add to order $10</button>
+                </div>
+              </article>
+
+
+
+
+
+            <article class="menuRow clear">
+
+              <div class="col">
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident,
+                  sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <button id="beefBurger" class="add" type="button" name="button">Add to order $15</button>
+              </div>
+
+              <div class="col">
+                <h3 class="itemHeading">Beef Burger</h3>
+                <img  id="itemImg" class="item" src="images/item2.jpeg" alt="Menu item">
+              </div>
+
+            </article>
+
+        </div>
+
+
+        </section>
+
+
+
+        <section id="cart" class="section cartRow clear">
+          <h1>View order Page</h1>
+
+          <div id="itemName" class="cartCol1">
+            <h2 class="displayOrder">Items</h2>
+          </div>
+
+          <div id="price" class="cartCol2">
+            <h2 class="displayOrder">Price</h2>
+          </div>
+
+          <div class="">
+            <button id="calculate" type="button" name="button">Calculate</button>
+          </div>
+
+          <div id="total" class="">
+            <h3 class="total">Total = </h3>
+          </div>
+        </section>
+
+
+        <section id="pay" class="section">
+          <h1>Payment Page</h1>
+        </section>
+      </main>
+
+    </div>
+    <!-- script -->
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+
+    <!-- my own script -->
+    <script src="js/script.js">
+
+    </script>
+  </body>
+</html>
