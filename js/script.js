@@ -60,5 +60,6 @@ document.getElementById('beefBurger').addEventListener('click', function(){
 
 
 document.getElementById('calculate').addEventListener('click', function(){
-  document.getElementById('total').innerHTML += sumPrice;
+  document.getElementById('total').innerHTML = "";
+  document.getElementById('total').innerHTML += "<br> Total = NZ $ " + sumPrice;
 });
